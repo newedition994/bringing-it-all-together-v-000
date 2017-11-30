@@ -58,6 +58,7 @@ class Dog
     SQL
 
     dog = DB[:conn].execute(sql, id)
+    dog_data = dog[0]
   end
 
 end
